@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/Saurabhjirekar/node-todo-app.git'
             }
         }
         stage('Build') {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                // Add your testing commands here
+                //this is test
             }
         }
         stage('Deploy') {
